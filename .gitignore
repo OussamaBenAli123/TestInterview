@@ -1,0 +1,59 @@
+
+###> symfony/framework-bundle ###
+./project/.env.local
+./project/.env.local.php
+./project/.env.*.local
+./project/config/secrets/prod/prod.decrypt.private.php
+./project/public/bundles/
+./project/var/
+./project/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+./project/.phpunit.result.cache
+./project/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+./my-angular-app/dist
+./my-angular-app/tmp
+./my-angular-app/out-tsc
+./my-angular-app/bazel-out
+
+# Node
+./my-angular-app/node_modules
+./my-angular-app/npm-debug.log
+./my-angular-app/yarn-error.log
+
+# IDEs and editors
+./my-angular-app/.idea/
+./my-angular-app/.project
+./my-angular-app/.classpath
+./my-angular-app/.c9/
+./my-angular-app/*.launch
+./my-angular-app/.settings/
+./my-angular-app/*.sublime-workspace
+
+# Visual Studio Code
+./my-angular-app/.vscode/*
+./my-angular-app/!.vscode/settings.json
+./my-angular-app/!.vscode/tasks.json
+./my-angular-app/!.vscode/launch.json
+./my-angular-app/!.vscode/extensions.json
+./my-angular-app/.history/*
+
+# Miscellaneous
+./my-angular-app/.angular/cache
+./my-angular-app/.sass-cache/
+./my-angular-app/connect.lock
+./my-angular-app/coverage
+./my-angular-app/libpeerconnection.log
+./my-angular-app/testem.log
+./my-angular-app/typings
+
+# System files
+./my-angular-app/.DS_Store
+./my-angular-app/Thumbs.db
+
